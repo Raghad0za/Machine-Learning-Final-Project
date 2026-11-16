@@ -1,0 +1,97 @@
+[
+  {
+    "profile_id": 0,
+    "key": "floral_bright",
+    "name": {
+      "ar": "زهري ومشرق",
+      "en": "Floral & bright"
+    },
+    "description": {
+      "ar": "ياسمين وزهور وفواكه، حموضة واضحة وقوام خفيف",
+      "en": "Jasmine, flowers and fruit, with bright acidity and a light body"
+    },
+    "top_notes": [
+      "Floral",
+      "Jasmine",
+      "Peach",
+      "Strawberry"
+    ],
+    "n_coffees": 88
+  },
+  {
+    "profile_id": 1,
+    "key": "juicy_fruity",
+    "name": {
+      "ar": "فواكه وتوت",
+      "en": "Juicy & fruity"
+    },
+    "description": {
+      "ar": "فراولة وتوت وفواكه استوائية، منعش وحموضته متوسطة لعالية",
+      "en": "Strawberry, berries and tropical fruit, refreshing with medium-high acidity"
+    },
+    "top_notes": [
+      "Strawberry",
+      "Berries",
+      "Peach",
+      "Tropical fruits"
+    ],
+    "n_coffees": 148
+  },
+  {
+    "profile_id": 2,
+    "key": "fruity_sweet",
+    "name": {
+      "ar": "فواكه وحلاوة",
+      "en": "Fruity & sweet"
+    },
+    "description": {
+      "ar": "فواكه مع كراميل وفانيلا وسكر بني، متوازن وحلو",
+      "en": "Fruit with caramel, vanilla and brown sugar, sweet and balanced"
+    },
+    "top_notes": [
+      "Caramel",
+      "Vanilla",
+      "Brown sugar",
+      "Strawberry"
+    ],
+    "n_coffees": 78
+  },
+  {
+    "profile_id": 3,
+    "key": "fruity_chocolate",
+    "name": {
+      "ar": "فواكه وشوكولاتة",
+      "en": "Fruity & chocolatey"
+    },
+    "description": {
+      "ar": "شوكولاتة مع توت وعنب، قوام متوسط لثقيل",
+      "en": "Chocolate with berries and grape, medium to full body"
+    },
+    "top_notes": [
+      "Chocolate",
+      "Dark chocolate",
+      "Cocoa",
+      "Grape"
+    ],
+    "n_coffees": 122
+  },
+  {
+    "profile_id": 4,
+    "key": "chocolate_nuts",
+    "name": {
+      "ar": "شوكولاتة ومكسرات",
+      "en": "Chocolate & nuts"
+    },
+    "description": {
+      "ar": "شوكولاتة ومكسرات وكراميل، حموضة خفيفة وقوام ثقيل ومرارة أعلى",
+      "en": "Chocolate, nuts and caramel, with low acidity, full body and more bitterness"
+    },
+    "top_notes": [
+      "Chocolate",
+      "Caramel",
+      "Nuts",
+      "Hazelnut"
+    ],
+    "n_coffees": 133
+  }
+]
