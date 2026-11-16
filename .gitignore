@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node / frontend
+node_modules/
+frontend/dist/
+.vercel/
+
+# blind test answers stay private until everyone has rated (see 05_Evaluation)
+data/blind_test_answers.csv

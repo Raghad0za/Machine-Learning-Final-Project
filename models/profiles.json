@@ -1,0 +1,176 @@
+[
+ {
+  "profile_id": 0,
+  "key": "juicy_fruity",
+  "name": {
+   "en": "Juicy & fruity",
+   "ar": "فاكهي"
+  },
+  "description": {
+   "en": "Berries, peach and tropical fruit. Bright, fun and easy to love.",
+   "ar": "توت وخوخ وفواكه استوائية. طعم مبهج وواضح."
+  },
+  "top_notes": [
+   "Strawberry",
+   "Berries",
+   "Tropical fruits",
+   "Peach"
+  ],
+  "n_coffees": 123,
+  "centroid": [
+   0.9478,
+   0.0,
+   0.0,
+   0.0,
+   0.0957,
+   -0.0,
+   0.0174,
+   0.0348
+  ]
+ },
+ {
+  "profile_id": 1,
+  "key": "citrus",
+  "name": {
+   "en": "Bright & citrusy",
+   "ar": "حمضي ومنعش"
+  },
+  "description": {
+   "en": "Orange, tangerine and lemon. Fresh, with a lively acidity.",
+   "ar": "برتقال ويوسفي وليمون. منعش وحموضته واضحة."
+  },
+  "top_notes": [
+   "Orange",
+   "Chocolate",
+   "Floral",
+   "Tangerine"
+  ],
+  "n_coffees": 80,
+  "centroid": [
+   0.8,
+   1.0,
+   0.25,
+   0.2875,
+   0.125,
+   0.275,
+   -0.0,
+   0.0375
+  ]
+ },
+ {
+  "profile_id": 2,
+  "key": "floral",
+  "name": {
+   "en": "Floral & delicate",
+   "ar": "زهري وناعم"
+  },
+  "description": {
+   "en": "Jasmine and stone fruit. Light and elegant, a bit like tea.",
+   "ar": "ياسمين وخوخ. خفيف وأنيق، قريب من الشاي."
+  },
+  "top_notes": [
+   "Floral",
+   "Jasmine",
+   "Peach",
+   "Strawberry"
+  ],
+  "n_coffees": 67,
+  "centroid": [
+   0.9474,
+   0.0,
+   1.0,
+   -0.0,
+   0.0877,
+   0.2456,
+   0.0175,
+   0.0877
+  ]
+ },
+ {
+  "profile_id": 3,
+  "key": "sweet_caramel",
+  "name": {
+   "en": "Sweet & caramel",
+   "ar": "حلو وكراميل"
+  },
+  "description": {
+   "en": "Caramel, brown sugar and honey with soft fruit.",
+   "ar": "كراميل وسكر بني وعسل مع لمسة فواكه."
+  },
+  "top_notes": [
+   "Caramel",
+   "Brown sugar",
+   "Chocolate",
+   "Vanilla"
+  ],
+  "n_coffees": 86,
+  "centroid": [
+   0.9294,
+   0.0,
+   0.0235,
+   0.2471,
+   0.0824,
+   1.0,
+   0.0235,
+   0.0118
+  ]
+ },
+ {
+  "profile_id": 4,
+  "key": "fruity_chocolate",
+  "name": {
+   "en": "Fruity chocolate",
+   "ar": "شوكولاتة وفاكهة"
+  },
+  "description": {
+   "en": "Dark chocolate with grape and red fruit.",
+   "ar": "شوكولاتة داكنة مع عنب وفواكه حمراء."
+  },
+  "top_notes": [
+   "Chocolate",
+   "Dark chocolate",
+   "Grape",
+   "Cocoa"
+  ],
+  "n_coffees": 89,
+  "centroid": [
+   0.9059,
+   0.0,
+   0.1059,
+   1.0,
+   0.1529,
+   -0.0,
+   0.0471,
+   0.0941
+  ]
+ },
+ {
+  "profile_id": 5,
+  "key": "chocolate_nutty",
+  "name": {
+   "en": "Chocolate & nutty",
+   "ar": "شوكولاتة ومكسرات"
+  },
+  "description": {
+   "en": "Classic and comforting: chocolate, caramel and nuts.",
+   "ar": "كلاسيكي ومريح: شوكولاتة وكراميل ومكسرات."
+  },
+  "top_notes": [
+   "Caramel",
+   "Chocolate",
+   "Nuts",
+   "Hazelnut"
+  ],
+  "n_coffees": 124,
+  "centroid": [
+   0.0857,
+   0.0952,
+   0.0667,
+   0.8286,
+   0.7619,
+   0.7238,
+   0.0476,
+   -0.0
+  ]
+ }
+]

@@ -1,51 +1,86 @@
-﻿query,coffee_id,source
-i like citrus and high acidity,563,recommender
-chocolate and caramel under 80 SAR,446,recommender
-ابغى قهوة اثيوبية زهرية,390,recommender
-chocolate and caramel under 80 SAR,195,random
-i want something fruity and under 60 SAR,291,recommender
-i want something fruity and under 60 SAR,534,random
-a balanced coffee for espresso,250,random
-i like citrus and high acidity,75,random
-a balanced coffee for espresso,16,recommender
-قهوة فواكه بدون شوكولاتة,464,recommender
-قهوة فواكه بدون شوكولاتة,191,recommender
-chocolate and caramel under 80 SAR,172,random
-something nutty and smooth,270,recommender
-chocolate and caramel under 80 SAR,1,recommender
-ابغى قهوة حلوة وفيها شوكولاتة,162,random
-ابغى قهوة اثيوبية زهرية,550,recommender
-a balanced coffee for espresso,268,random
-i like citrus and high acidity,150,recommender
-something nutty and smooth,444,recommender
-floral and light for V60,126,random
-ابغى قهوة اثيوبية زهرية,539,recommender
-ابغى قهوة حلوة وفيها شوكولاتة,148,recommender
-a balanced coffee for espresso,314,recommender
-something nutty and smooth,518,random
-something nutty and smooth,5,random
-i want something fruity and under 60 SAR,356,random
-قهوة فواكه بدون شوكولاتة,69,random
-floral and light for V60,468,random
-قهوة فواكه بدون شوكولاتة,410,recommender
-floral and light for V60,529,recommender
-i like citrus and high acidity,463,random
-ابغى قهوة اثيوبية زهرية,142,random
-قهوة فواكه بدون شوكولاتة,261,random
-ابغى قهوة حلوة وفيها شوكولاتة,170,random
-something nutty and smooth,267,recommender
-i like citrus and high acidity,156,recommender
-ابغى محصول مرارته عالية,148,recommender
-ابغى محصول مرارته عالية,333,recommender
-a balanced coffee for espresso,135,recommender
-i want something fruity and under 60 SAR,354,recommender
-ابغى قهوة حلوة وفيها شوكولاتة,307,recommender
-i want something fruity and under 60 SAR,85,recommender
-ابغى قهوة حلوة وفيها شوكولاتة,337,recommender
-ابغى محصول مرارته عالية,430,recommender
-floral and light for V60,565,recommender
-ابغى محصول مرارته عالية,328,random
-ابغى محصول مرارته عالية,510,random
-floral and light for V60,539,recommender
-ابغى قهوة اثيوبية زهرية,408,random
-chocolate and caramel under 80 SAR,371,recommender
+﻿query	coffee_id	coffee_name	origin_country	tasting_notes	price_sar	rating_1_to_5
+i like citrus and high acidity	563	dr.CAFE Ethiopia Guji 250g	Ethiopia	Red currant; Lime; White tea; Citrus	61	
+chocolate and caramel under 80 SAR	446	Colombia Excelso - Seven Grams	Colombia	Dark chocolate; Caramel; Brown sugar	66.3	
+ابغى قهوة اثيوبية زهرية	390	Mandarin - Ethiopian	Ethiopia	Peach; Berries; Floral; Jasmine	53	
+chocolate and caramel under 80 SAR	195	Drip On Red Fruit (Luxury) 250g	Colombia	Orange; Vanilla; Lemon; Red fruits	89.7	
+i want something fruity and under 60 SAR	291	Manos | Colombia | Anaerobic 250g	Colombia	Blueberry; Banana; Peach	59.8	
+i want something fruity and under 60 SAR	534	Arabic Saudi Coffee - The Coffee Factory	Unknown	Chocolate; Nuts	25	
+a balanced coffee for espresso	250	Ethiopia Hambela - Hasil	Ethiopia	Jasmine; Blueberry; Strawberry	49.38	
+i like citrus and high acidity	75	Hima Wells - Arriyadh	Guatemala	Hazelnut cream; Caramel; Roasted walnut	70	
+a balanced coffee for espresso	16	3Bean Roastery Uganda Bugisu Coffee Beans 250g	Uganda	Fruity; Blueberry; Vanilla	63.25	
+قهوة فواكه بدون شوكولاتة	464	Sika | Colombia Peach 175g	Colombia	Peach	78	
+قهوة فواكه بدون شوكولاتة	191	Drip On Colombia Peach (Luxury) 250g	Colombia	Peach; Strawberry; Melon	67.28	
+chocolate and caramel under 80 SAR	172	Brazil Rose - Carmalah	Brazil	Floral; Sweetness	57	
+something nutty and smooth	270	Ladn	Multiple	Roasted nuts	54	
+chocolate and caramel under 80 SAR	1	12 Cups Colombia Excelso 250g	Colombia	Chocolate; Caramel; Sugar cane	46	
+ابغى قهوة حلوة وفيها شوكولاتة	162	Decaf Lavado	Colombia	Orange; Almond; Dark chocolate	54.86	
+ابغى قهوة اثيوبية زهرية	550	Zelebrity Ethiopia Chelchele Coffee Beans	Ethiopia	Floral; Fruity	47.19	
+a balanced coffee for espresso	268	Sul de Minas Dark	Brazil	Classic flavors; Almond	48	
+i like citrus and high acidity	150	Guji Siko - Ethiopia - Filter Coffee 250G	Ethiopia	Lime; Citrus; Floral; Berries; Stone fruit; Tropical fruits	86	
+something nutty and smooth	444	Al-Balad Blend - Roasting House (1kg)	Multiple	Hazelnut; Walnut; Chocolate	197.82	
+floral and light for V60	126	Bunista Ethiopia Fruity 250g	Ethiopia	Cocoa nibs; Blueberry; Lime	45.94	
+ابغى قهوة اثيوبية زهرية	539	Ethiopia Chelchele - Woods	Ethiopia	Floral; Bergamot; Peach; Lavender	181.25	
+ابغى قهوة حلوة وفيها شوكولاتة	148	Espresso Blend Better Barista Vol. 2	Multiple	Dark chocolate; Vanilla fudge; Toffee	97.75	
+a balanced coffee for espresso	314	Ethiopia Aura - Kuf	Ethiopia	Berries; Yellow fruits; Jasmine; Sweetness	64	
+something nutty and smooth	518	Brazil Fazenda	Brazil	Chocolate; Nuts; Caramel	59	
+something nutty and smooth	5	12 Cups Ethiopia Guji Natural 1kg	Ethiopia	Ripe fruit; Chocolate	161	
+i want something fruity and under 60 SAR	356	Olala Roastery - Chelchele - Ethiopia	Ethiopia	Dried blueberry; Caramel; Lemon; Cocoa powder	67	
+قهوة فواكه بدون شوكولاتة	69	Alwal Albari Roastery - Sidamo 200g	Ethiopia	Black lemon; Sweetness; Floral	46	
+floral and light for V60	468	Silverskin Colombia La Fresa 250g	Colombia	Strawberry; Cherry; Caramel	47.15	
+قهوة فواكه بدون شوكولاتة	410	Rays Colombia La Hermosa 250g	Colombia	Apple; Fruity	64.4	
+floral and light for V60	529	El Higueron - Colombia | The Coffee Factory	Colombia	Watermelon; Tangerine; Jasmine	49	
+i like citrus and high acidity	463	Sika | El Salvador El Carmen 250g	El Salvador	Dark chocolate; Dried fruits; Nuts	61	
+ابغى قهوة اثيوبية زهرية	142	C&B Saudi Khawlan 250g	Yemen	Chocolate; Nuts	34.99	
+قهوة فواكه بدون شوكولاتة	261	Turkish	Multiple	Unknown	56	
+ابغى قهوة حلوة وفيها شوكولاتة	170	Ghaid Blend	Multiple	Nuts; Chocolate; Almond; Cinnamon; Rose	58.2	
+something nutty and smooth	267	Sul de Minas	Brazil	Sweet almond	48	
+i like citrus and high acidity	156	Rio Dulce Geisha - Colombia - Filter Coffee 250G	Colombia	Lemon blossom; Lychee; White tea	112	
+ابغى محصول مرارته عالية	148	Espresso Blend Better Barista Vol. 2	Multiple	Dark chocolate; Vanilla fudge; Toffee	97.75	
+ابغى محصول مرارته عالية	333	Medd Secret 3	Multiple	Caramel; Nuts; Spices; Chocolate	139	
+a balanced coffee for espresso	135	Waykan	Guatemala	Chocolate; Grape; Orange	169	
+i want something fruity and under 60 SAR	354	Colombia Golden Fruit Coffee - Olala 125g	Colombia	Yellow fruits; Passion fruit; Apricot	49.5	
+ابغى قهوة حلوة وفيها شوكولاتة	307	Kiffa El Salvador Divisadero 250g	El Salvador	Milk chocolate; Caramel	62.1	
+i want something fruity and under 60 SAR	85	Ethiopia Leke Anaerobic - Ash	Ethiopia	Watermelon; Kiwi; Sweet fruits; Blueberry	35.96	
+ابغى قهوة حلوة وفيها شوكولاتة	337	Huila	Colombia	Sugar cane; Chocolate; Caramel	52	
+ابغى محصول مرارته عالية	430	Tiramisu - Dark Roast	Multiple	Dark chocolate; Cocoa; Full body	39	
+floral and light for V60	565	dr.CAFE Ethiopia Yirgacheffe Aricha 200g	Ethiopia	Jasmine; Apple; Peach	66	
+ابغى محصول مرارته عالية	328	Costa Rica La Pascuala	Costa Rica	Caramel; Fruits	55.25	
+ابغى محصول مرارته عالية	510	Elida Panama Microlot - Sulalat	Panama	Fig; Guava; Apricot	85	
+floral and light for V60	539	Ethiopia Chelchele - Woods	Ethiopia	Floral; Bergamot; Peach; Lavender	181.25	
+ابغى قهوة اثيوبية زهرية	408	Rays Brazil Rosa Morena 250g	Brazil	Floral; Soft citrus; Sweetness	41.4	
+chocolate and caramel under 80 SAR	371	Osar Roastery Dana Colombia Washed 250g	Colombia	Milk chocolate; Cocoa; Caramel	48.3	
+قهوة فواكه بدون شوكولاتة	71	Brazil Mogiana - Andes	Brazil	Cocoa; Caramel; Nuts	43	
+chocolate and caramel under 80 SAR	20	Sweet Blend - 3Bean	Multiple	Rich chocolate; Caramel; Sweet finish	42	
+i want something fruity and under 60 SAR	300	El Salvador - Nejapa	El Salvador	Cherry; Strawberry; Grape	41	
+قهوة فواكه بدون شوكولاتة	45	Uganda Sironko Coffee	Uganda	Plum; Apple; Red berries	140	
+i like citrus and high acidity	327	Ethiopia Aida	Ethiopia	Lemon; Apricot; Tropical fruits	55.25	
+i like citrus and high acidity	69	Alwal Albari Roastery - Sidamo 200g	Ethiopia	Black lemon; Sweetness; Floral	46	
+i like citrus and high acidity	464	Sika | Colombia Peach 175g	Colombia	Peach	78	
+something nutty and smooth	35	Hoy Blend - 8th Day	Multiple	Hazelnut; Caramel	45	
+قهوة فواكه بدون شوكولاتة	263	Grape Candy	Colombia	Grape; Candy	99	
+ابغى قهوة حلوة وفيها شوكولاتة	163	Rwanda Nyura	Rwanda	Strawberry; Guava; Fig; Hazelnut	74.47	
+ابغى قهوة اثيوبية زهرية	146	Chelchele - Ethiopia - Espresso Coffee 1KG	Ethiopia	Floral; Blueberry; Strawberry; Stone fruit	137.6	
+chocolate and caramel under 80 SAR	478	Blend V2 - Slope	Multiple	Caramel; Chocolate; Sweetness	41.7	
+something nutty and smooth	268	Sul de Minas Dark	Brazil	Classic flavors; Almond	48	
+ابغى قهوة حلوة وفيها شوكولاتة	20	Sweet Blend - 3Bean	Multiple	Rich chocolate; Caramel; Sweet finish	42	
+i like citrus and high acidity	76	Qasr Al-Murabba Blend 250g	Multiple	Chocolate; Nuts	70	
+floral and light for V60	473	Silverskin Ethiopia Hambela 250g	Ethiopia	Blueberry; Fruity; Chocolate; Sweet	51.75	
+floral and light for V60	351	Microlot Roastery Ethiopian Hambela 250g	Ethiopia	Red fruits; Mango; Jasmine; Peach	37.03	
+ابغى قهوة اثيوبية زهرية	474	Silverskin Ethiopia Sidamo 250g	Ethiopia	Tropical fruits; Blueberry; Floral	40.08	
+قهوة فواكه بدون شوكولاتة	197	Ugandan specialty coffee beans | Rwenzori 250g	Uganda	Pineapple; Plum; Tropical fruits; Berries	38	
+ابغى قهوة حلوة وفيها شوكولاتة	172	Brazil Rose - Carmalah	Brazil	Floral; Sweetness	57	
+ابغى قهوة اثيوبية زهرية	351	Microlot Roastery Ethiopian Hambela 250g	Ethiopia	Red fruits; Mango; Jasmine; Peach	37.03	
+قهوة فواكه بدون شوكولاتة	61	Colombia Lollipop Honey - Alton	Colombia	Berries; Strawberry; Pomegranate	17	
+something nutty and smooth	59	Uganda Bujuku - Alton	Uganda	Caramel; Chocolate; Hazelnut	34	
+i like citrus and high acidity	116	Breehant Roastery - Colombia, Cauca 250g	Colombia	Bukhara plum; Tangerine; Grapefruit; Jasmine	50.4	
+ابغى محصول مرارته عالية	346	Microlot Roaster Colombian Huila 250 g	Colombia	Rich cocoa; Chocolate; Red grape; Nuts	24.96	
+a balanced coffee for espresso	227	Blend - Gotah	Multiple	Chocolate; Vanilla; Caramel; Hazelnut	20.91	
+i want something fruity and under 60 SAR	197	Ugandan specialty coffee beans | Rwenzori 250g	Uganda	Pineapple; Plum; Tropical fruits; Berries	38	
+ابغى قهوة حلوة وفيها شوكولاتة	478	Blend V2 - Slope	Multiple	Caramel; Chocolate; Sweetness	41.7	
+i want something fruity and under 60 SAR	61	Colombia Lollipop Honey - Alton	Colombia	Berries; Strawberry; Pomegranate	17	
+ابغى محصول مرارته عالية	227	Blend - Gotah	Multiple	Chocolate; Vanilla; Caramel; Hazelnut	20.91	
+floral and light for V60	474	Silverskin Ethiopia Sidamo 250g	Ethiopia	Tropical fruits; Blueberry; Floral	40.08	
+ابغى محصول مرارته عالية	329	Colombia El Diviso	Colombia	Mango; Peach; Tropical fruits	55.25	
+floral and light for V60	198	Ethiopia | Hambela 1kg	Ethiopia	Red fruits; Mango; Jasmine; Peach	160.5	
+ابغى قهوة اثيوبية زهرية	409	Rays Colombia Flora 250g	Colombia	Hibiscus; Fruit tea; Apple	46	
+chocolate and caramel under 80 SAR	226	Brazil Morena - Gotah	Brazil	Toffee; Vanilla; Chocolate; Caramel	42.55	
