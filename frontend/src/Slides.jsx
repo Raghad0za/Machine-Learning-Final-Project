@@ -246,9 +246,6 @@ export function useSlides(goTry) {
               </div>
             ))}
           </div>
-          <div className="chips-row">
-            <span>نشر واحد</span><span>6 API endpoints</span><span>{ms} مللي ثانية</span><span>بدون scikit-learn في الخادم</span>
-          </div>
         </div>
       ),
     },
