@@ -1,0 +1,5 @@
+frontend/node_modules
+frontend/dist
+notebooks/__pycache__
+**/__pycache__
+*.joblib

@@ -11,7 +11,7 @@ app = FastAPI(title="Coffee Matchmaker API")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 Lang = Literal["ar", "en"]
-Focus = Literal["overall", "body", "acidity", "flavor", "price", "origin", "process"]
+Focus = Literal["overall", "body", "acidity", "bitterness", "flavor", "price", "origin", "process"]
 
 
 class Filters(BaseModel):

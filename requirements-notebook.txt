@@ -1,0 +1,7 @@
+# for the notebook (it also imports the app, so it needs the API packages too)
+-r requirements.txt
+pandas
+matplotlib
+scikit-learn
+joblib
+scipy

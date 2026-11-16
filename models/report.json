@@ -1,0 +1,853 @@
+{
+ "flavor_model": {
+  "auc_by_model": {
+   "Baseline (always the average)": 0.431,
+   "Gradient Boosting": 0.659,
+   "Logistic Regression": 0.666,
+   "Random Forest": 0.691
+  },
+  "f1_by_model": {
+   "Baseline (always the average)": 0.142,
+   "Gradient Boosting": 0.377,
+   "Logistic Regression": 0.506,
+   "Random Forest": 0.498
+  },
+  "auc_by_family": {
+   "Baseline (always the average)": {
+    "caramel_sweet": 0.446,
+    "chocolate": 0.451,
+    "citrus": 0.437,
+    "floral": 0.439,
+    "fruity": 0.426,
+    "nutty": 0.386
+   },
+   "Logistic Regression": {
+    "caramel_sweet": 0.515,
+    "chocolate": 0.673,
+    "citrus": 0.546,
+    "floral": 0.669,
+    "fruity": 0.834,
+    "nutty": 0.759
+   },
+   "Random Forest": {
+    "caramel_sweet": 0.541,
+    "chocolate": 0.711,
+    "citrus": 0.591,
+    "floral": 0.676,
+    "fruity": 0.86,
+    "nutty": 0.77
+   },
+   "Gradient Boosting": {
+    "caramel_sweet": 0.519,
+    "chocolate": 0.688,
+    "citrus": 0.527,
+    "floral": 0.637,
+    "fruity": 0.848,
+    "nutty": 0.737
+   }
+  },
+  "chosen": "Random Forest",
+  "n_predicted": 42
+ },
+ "body_model": {
+  "results": [
+   {
+    "model": "Baseline: always the most common",
+    "macro_f1": 0.236,
+    "f1_std": 0.0,
+    "accuracy": 0.547,
+    "log_loss": 2.108
+   },
+   {
+    "model": "Baseline: random guess",
+    "macro_f1": 0.344,
+    "f1_std": 0.027,
+    "accuracy": 0.405,
+    "log_loss": 2.761
+   },
+   {
+    "model": "Logistic Regression",
+    "macro_f1": 0.392,
+    "f1_std": 0.02,
+    "accuracy": 0.505,
+    "log_loss": 1.304
+   },
+   {
+    "model": "Random Forest",
+    "macro_f1": 0.376,
+    "f1_std": 0.013,
+    "accuracy": 0.497,
+    "log_loss": 1.028
+   },
+   {
+    "model": "Gradient Boosting",
+    "macro_f1": 0.386,
+    "f1_std": 0.017,
+    "accuracy": 0.57,
+    "log_loss": 1.015
+   },
+   {
+    "model": "Naive Bayes",
+    "macro_f1": 0.392,
+    "f1_std": 0.007,
+    "accuracy": 0.579,
+    "log_loss": 1.297
+   }
+  ],
+  "threshold_table": [
+   {
+    "min_confidence": 0.0,
+    "coverage": 1.0,
+    "accuracy_when_shown": 0.488
+   },
+   {
+    "min_confidence": 0.4,
+    "coverage": 0.651,
+    "accuracy_when_shown": 0.554
+   },
+   {
+    "min_confidence": 0.5,
+    "coverage": 0.192,
+    "accuracy_when_shown": 0.758
+   },
+   {
+    "min_confidence": 0.6,
+    "coverage": 0.047,
+    "accuracy_when_shown": 0.625
+   },
+   {
+    "min_confidence": 0.7,
+    "coverage": 0.006,
+    "accuracy_when_shown": 1.0
+   }
+  ],
+  "confusion": [
+   [
+    0,
+    7,
+    10
+   ],
+   [
+    13,
+    29,
+    19
+   ],
+   [
+    18,
+    21,
+    55
+   ]
+  ],
+  "labels": [
+   "Light",
+   "Medium",
+   "Full"
+  ],
+  "chosen": "Random Forest",
+  "n_real": 172,
+  "n_predicted_shown": 74
+ },
+ "acidity": {
+  "counts": {
+   "Medium": 207,
+   "Low": 181,
+   "High": 181
+  },
+  "stated": 72
+ },
+ "bitterness": {
+  "counts": {
+   "Low": 239,
+   "High": 184,
+   "Medium": 146
+  },
+  "stated": 21
+ },
+ "kmeans": {
+  "k_table": [
+   {
+    "k": 2,
+    "inertia": 486.912,
+    "silhouette": 0.281
+   },
+   {
+    "k": 3,
+    "inertia": 406.075,
+    "silhouette": 0.286
+   },
+   {
+    "k": 4,
+    "inertia": 338.808,
+    "silhouette": 0.337
+   },
+   {
+    "k": 5,
+    "inertia": 298.38,
+    "silhouette": 0.37
+   },
+   {
+    "k": 6,
+    "inertia": 270.339,
+    "silhouette": 0.396
+   },
+   {
+    "k": 7,
+    "inertia": 246.796,
+    "silhouette": 0.419
+   },
+   {
+    "k": 8,
+    "inertia": 226.807,
+    "silhouette": 0.441
+   }
+  ],
+  "chosen_k": 6,
+  "profiles": [
+   {
+    "profile_id": 0,
+    "key": "juicy_fruity",
+    "name": {
+     "en": "Juicy & fruity",
+     "ar": "فاكهي"
+    },
+    "top_notes": [
+     "Strawberry",
+     "Berries",
+     "Tropical fruits",
+     "Peach"
+    ],
+    "n_coffees": 123,
+    "centroid": [
+     0.9478,
+     0.0,
+     0.0,
+     0.0,
+     0.0957,
+     -0.0,
+     0.0174,
+     0.0348
+    ]
+   },
+   {
+    "profile_id": 1,
+    "key": "citrus",
+    "name": {
+     "en": "Bright & citrusy",
+     "ar": "حمضي ومنعش"
+    },
+    "top_notes": [
+     "Orange",
+     "Chocolate",
+     "Floral",
+     "Tangerine"
+    ],
+    "n_coffees": 80,
+    "centroid": [
+     0.8,
+     1.0,
+     0.25,
+     0.2875,
+     0.125,
+     0.275,
+     -0.0,
+     0.0375
+    ]
+   },
+   {
+    "profile_id": 2,
+    "key": "floral",
+    "name": {
+     "en": "Floral & delicate",
+     "ar": "زهري وناعم"
+    },
+    "top_notes": [
+     "Floral",
+     "Jasmine",
+     "Peach",
+     "Strawberry"
+    ],
+    "n_coffees": 67,
+    "centroid": [
+     0.9474,
+     0.0,
+     1.0,
+     -0.0,
+     0.0877,
+     0.2456,
+     0.0175,
+     0.0877
+    ]
+   },
+   {
+    "profile_id": 3,
+    "key": "sweet_caramel",
+    "name": {
+     "en": "Sweet & caramel",
+     "ar": "حلو وكراميل"
+    },
+    "top_notes": [
+     "Caramel",
+     "Brown sugar",
+     "Chocolate",
+     "Vanilla"
+    ],
+    "n_coffees": 86,
+    "centroid": [
+     0.9294,
+     0.0,
+     0.0235,
+     0.2471,
+     0.0824,
+     1.0,
+     0.0235,
+     0.0118
+    ]
+   },
+   {
+    "profile_id": 4,
+    "key": "fruity_chocolate",
+    "name": {
+     "en": "Fruity chocolate",
+     "ar": "شوكولاتة وفاكهة"
+    },
+    "top_notes": [
+     "Chocolate",
+     "Dark chocolate",
+     "Grape",
+     "Cocoa"
+    ],
+    "n_coffees": 89,
+    "centroid": [
+     0.9059,
+     0.0,
+     0.1059,
+     1.0,
+     0.1529,
+     -0.0,
+     0.0471,
+     0.0941
+    ]
+   },
+   {
+    "profile_id": 5,
+    "key": "chocolate_nutty",
+    "name": {
+     "en": "Chocolate & nutty",
+     "ar": "شوكولاتة ومكسرات"
+    },
+    "top_notes": [
+     "Caramel",
+     "Chocolate",
+     "Nuts",
+     "Hazelnut"
+    ],
+    "n_coffees": 124,
+    "centroid": [
+     0.0857,
+     0.0952,
+     0.0667,
+     0.8286,
+     0.7619,
+     0.7238,
+     0.0476,
+     -0.0
+    ]
+   }
+  ]
+ },
+ "data": {
+  "n_coffees": 569,
+  "n_roasters": 71,
+  "n_sites": 51,
+  "n_cities": 14,
+  "missing_before": 8672,
+  "translations": 1127,
+  "top_origins": {
+   "Colombia": 151,
+   "Ethiopia": 133,
+   "Multiple": 60,
+   "Brazil": 48,
+   "Uganda": 28,
+   "El Salvador": 27,
+   "Costa Rica": 24,
+   "Yemen": 20
+  },
+  "process": {
+   "Natural": 259,
+   "Washed": 88,
+   "Anaerobic": 66,
+   "Unknown": 55,
+   "Mixed": 32,
+   "Infused": 22,
+   "Experimental Fermentation": 20,
+   "Honey": 16,
+   "Decaf": 7,
+   "Other": 4
+  },
+  "families": {
+   "fruity": 414,
+   "citrus": 90,
+   "floral": 106,
+   "chocolate": 239,
+   "nutty": 145,
+   "caramel_sweet": 205,
+   "spice": 14,
+   "tea": 21
+  },
+  "median_price_100g": 23.6,
+  "price_hist": [
+   0,
+   5,
+   24,
+   103,
+   114,
+   84,
+   40,
+   12,
+   13,
+   4,
+   6,
+   15
+  ],
+  "continent_median": {
+   "Africa": 24.0,
+   "Latin America": 23.92,
+   "Asia": 23.27,
+   "Arabian Peninsula": 29.99
+  },
+  "in_stock": 518,
+  "wheel": {
+   "fruity": {
+    "count": 414,
+    "notes": [
+     [
+      "Strawberry",
+      62,
+      "فراولة"
+     ],
+     [
+      "Peach",
+      54,
+      "خوخ"
+     ],
+     [
+      "Berries",
+      52,
+      "توت"
+     ],
+     [
+      "Grape",
+      47,
+      "عنب"
+     ]
+    ]
+   },
+   "citrus": {
+    "count": 90,
+    "notes": [
+     [
+      "Orange",
+      31,
+      "برتقال"
+     ],
+     [
+      "Grapefruit",
+      11,
+      "جريب فروت"
+     ],
+     [
+      "Tangerine",
+      10,
+      "يوسفي"
+     ],
+     [
+      "Lemon",
+      8,
+      "ليمون"
+     ]
+    ]
+   },
+   "floral": {
+    "count": 106,
+    "notes": [
+     [
+      "Jasmine",
+      34,
+      "ياسمين"
+     ],
+     [
+      "Lavender",
+      4,
+      "لافندر"
+     ],
+     [
+      "Hibiscus",
+      4,
+      "كركديه"
+     ],
+     [
+      "Rose",
+      2,
+      "ورد"
+     ]
+    ]
+   },
+   "chocolate": {
+    "count": 239,
+    "notes": [
+     [
+      "Chocolate",
+      119,
+      "شوكولاتة"
+     ],
+     [
+      "Dark chocolate",
+      42,
+      "شوكولاتة داكنة"
+     ],
+     [
+      "Cocoa",
+      32,
+      "كاكاو"
+     ],
+     [
+      "Milk chocolate",
+      15,
+      "شوكولاتة بالحليب"
+     ]
+    ]
+   },
+   "nutty": {
+    "count": 145,
+    "notes": [
+     [
+      "Hazelnut",
+      25,
+      "بندق"
+     ],
+     [
+      "Almond",
+      22,
+      "لوز"
+     ],
+     [
+      "Peanut",
+      7,
+      "فول سوداني"
+     ],
+     [
+      "Roasted nuts",
+      7,
+      "مكسرات محمصة"
+     ]
+    ]
+   },
+   "caramel_sweet": {
+    "count": 205,
+    "notes": [
+     [
+      "Caramel",
+      97,
+      "كراميل"
+     ],
+     [
+      "Brown sugar",
+      35,
+      "سكر بني"
+     ],
+     [
+      "Vanilla",
+      25,
+      "فانيلا"
+     ],
+     [
+      "Honey",
+      20,
+      "عسل"
+     ]
+    ]
+   },
+   "spice": {
+    "count": 14,
+    "notes": [
+     [
+      "Cinnamon",
+      6,
+      "قرفة"
+     ],
+     [
+      "Clove",
+      2,
+      "قرنفل"
+     ]
+    ]
+   },
+   "tea": {
+    "count": 21,
+    "notes": [
+     [
+      "Black tea",
+      13,
+      "شاي أسود"
+     ],
+     [
+      "White tea",
+      2,
+      "شاي أبيض"
+     ],
+     [
+      "Fruit tea",
+      2,
+      "شاي فواكه"
+     ],
+     [
+      "Iced tea",
+      1,
+      "شاي مثلج"
+     ]
+    ]
+   }
+  }
+ },
+ "twin_test": [
+  {
+   "representation": "Families only",
+   "hit_at_5": 0.156,
+   "mrr": 0.102
+  },
+  {
+   "representation": "Notes 50% / families 50%",
+   "hit_at_5": 0.26,
+   "mrr": 0.183
+  },
+  {
+   "representation": "Notes 70% / families 30%",
+   "hit_at_5": 0.281,
+   "mrr": 0.19
+  },
+  {
+   "representation": "Notes 85% / families 15%",
+   "hit_at_5": 0.281,
+   "mrr": 0.199
+  },
+  {
+   "representation": "Notes only (TF-IDF)",
+   "hit_at_5": 0.271,
+   "mrr": 0.197
+  },
+  {
+   "representation": "Random ranking",
+   "hit_at_5": 0.086,
+   "mrr": null
+  }
+ ],
+ "understanding": {
+  "dev_all_correct": 1.0,
+  "heldout_all_correct": 1.0,
+  "dev_fields": {
+   "flavors": 1.0,
+   "excluded": 1.0,
+   "brew": 1.0,
+   "price": 1.0,
+   "body": 1.0,
+   "acidity": 1.0,
+   "bitterness": 1.0,
+   "process": 1.0,
+   "origin": 1.0,
+   "decaf": 1.0,
+   "saudi": 1.0,
+   "no_infused": 1.0,
+   "cheap": 1.0,
+   "ref": 1.0,
+   "focus": 1.0
+  },
+  "heldout_fields": {
+   "flavors": 1.0,
+   "excluded": 1.0,
+   "brew": 1.0,
+   "price": 1.0,
+   "body": 1.0,
+   "acidity": 1.0,
+   "bitterness": 1.0,
+   "process": 1.0,
+   "origin": 1.0,
+   "decaf": 1.0,
+   "saudi": 1.0,
+   "no_infused": 1.0,
+   "cheap": 1.0,
+   "ref": 1.0,
+   "focus": 1.0
+  },
+  "n_dev": 42,
+  "n_heldout": 22
+ },
+ "precision": {
+  "Arabic": {
+   "ours": 0.979,
+   "keyword_search": 0.172,
+   "random": 0.232
+  },
+  "English": {
+   "ours": 0.983,
+   "keyword_search": 0.45,
+   "random": 0.168
+  },
+  "All": {
+   "ours": 0.981,
+   "keyword_search": 0.298,
+   "random": 0.203
+  },
+  "Held-out only": {
+   "ours": 0.947,
+   "keyword_search": 0.337,
+   "random": 0.199
+  }
+ },
+ "focus": {
+  "origin": {
+   "ours": 0.995,
+   "taste_kept": 0.787,
+   "random": 0.118
+  },
+  "process": {
+   "ours": 0.983,
+   "taste_kept": 0.804,
+   "random": 0.33
+  },
+  "price": {
+   "ours": 1.0,
+   "taste_kept": 0.789,
+   "random": 0.532
+  },
+  "body": {
+   "ours": 0.86,
+   "taste_kept": 0.91,
+   "random": 0.16
+  },
+  "flavor": {
+   "ours": 0.916,
+   "taste_kept": 0.916,
+   "random": 0.564
+  }
+ },
+ "variety": {
+  "coverage": 0.6621621621621622,
+  "shown": 343,
+  "roasters_in_top5": 4.6,
+  "ms_per_request": 9.514463682931797
+ },
+ "knn": {
+  "weights": {
+   "notes": 0.7,
+   "families": 0.3,
+   "body": 0.25,
+   "acidity": 0.25,
+   "bitterness": 0.25,
+   "process": 0.25,
+   "origin": 0.25,
+   "price": 0.25
+  },
+  "focus_factor": 8,
+  "weight_tuning": [
+   {
+    "attribute_weight": 0.1,
+    "dev_precision": 0.982,
+    "taste_kept": 0.907,
+    "other_aspects": 0.534,
+    "similar_score": 0.72,
+    "average": 0.851
+   },
+   {
+    "attribute_weight": 0.25,
+    "dev_precision": 1.0,
+    "taste_kept": 0.844,
+    "other_aspects": 0.629,
+    "similar_score": 0.736,
+    "average": 0.868
+   },
+   {
+    "attribute_weight": 0.5,
+    "dev_precision": 1.0,
+    "taste_kept": 0.808,
+    "other_aspects": 0.666,
+    "similar_score": 0.737,
+    "average": 0.869
+   },
+   {
+    "attribute_weight": 1.0,
+    "dev_precision": 1.0,
+    "taste_kept": 0.788,
+    "other_aspects": 0.673,
+    "similar_score": 0.73,
+    "average": 0.865
+   }
+  ],
+  "factor_tuning": [
+   {
+    "focus_factor": 1,
+    "follows_focus": 0.71,
+    "taste_kept": 0.849,
+    "score": 0.78
+   },
+   {
+    "focus_factor": 2,
+    "follows_focus": 0.795,
+    "taste_kept": 0.842,
+    "score": 0.819
+   },
+   {
+    "focus_factor": 4,
+    "follows_focus": 0.905,
+    "taste_kept": 0.84,
+    "score": 0.872
+   },
+   {
+    "focus_factor": 8,
+    "follows_focus": 0.969,
+    "taste_kept": 0.826,
+    "score": 0.897
+   },
+   {
+    "focus_factor": 16,
+    "follows_focus": 0.99,
+    "taste_kept": 0.819,
+    "score": 0.904
+   }
+  ],
+  "blocks": {
+   "notes": 216,
+   "families": 8,
+   "body": 3,
+   "acidity": 3,
+   "bitterness": 3,
+   "process": 9,
+   "origin": 130,
+   "price": 3
+  },
+  "n_imputed_notes": 42,
+  "n_body_from_rf": 397,
+  "notes_weight": 0.7,
+  "similar_test": [
+   0.84,
+   {
+    "origin": 0.6090909090909091,
+    "process": 0.7086956521739131,
+    "price": 0.74,
+    "body": 0.47
+   }
+  ]
+ },
+ "team_eval": {
+  "n_queries": 31,
+  "understood_first_try_pct": 77.4,
+  "understood_pct": 100.0,
+  "understood_by_lang": {
+   "ar": 100.0,
+   "en": 100.0
+  },
+  "constraints_all_pct": 100.0,
+  "constraints_real_pct": 100.0,
+  "similar_p5": 0.775,
+  "similar_p5_random": 0.347
+ }
+}
