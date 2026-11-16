@@ -28,7 +28,13 @@ Collected by web scraping Saudi roaster websites and the Qavashop marketplace (5
 Then open http://127.0.0.1:8000/docs
 
 ## Results
-_Coming soon._
+| Metric                                     | Result   | Baseline                |
+|:-------------------------------------------|:---------|:------------------------|
+| Requests understood correctly (of 31)      | 94%      | —                       |
+| Constraint satisfaction                    | 100%     | —                       |
+| Constraint satisfaction (real values only) | 100%     | —                       |
+| Leave-one-out precision@5                  | 0.98     | 5 random coffees: 0.35  |
+| Blind test mean rating (1–5)               | pending  | random coffees: pending |
 
 ## Team
 - Ruba Alotaibi: data cleaning and EDA
